@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Task-Manager-With-Context-API-And-Hooks/static/css/main.4fedccc2.css",
+    "main.js": "/React-Task-Manager-With-Context-API-And-Hooks/static/js/main.7e56bdbe.js",
+    "index.html": "/React-Task-Manager-With-Context-API-And-Hooks/index.html",
+    "main.4fedccc2.css.map": "/React-Task-Manager-With-Context-API-And-Hooks/static/css/main.4fedccc2.css.map",
+    "main.7e56bdbe.js.map": "/React-Task-Manager-With-Context-API-And-Hooks/static/js/main.7e56bdbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fedccc2.css",
+    "static/js/main.7e56bdbe.js"
+  ]
+}
