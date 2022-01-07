@@ -1,0 +1,23 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.list-item span {
+    color: #999;
+}
+
+.task-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+i {
+    color: #bbb;
+    font-size: 16px;
+}

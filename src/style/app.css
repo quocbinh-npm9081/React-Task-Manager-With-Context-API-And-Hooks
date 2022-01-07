@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --text-color: #999;
+    --bg-input: #1C222E;
+    --bg-card: #292f3b;
+    --bg-btn: #7E1e42;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    background: rgb(222, 35, 143);
+    background: linear-gradient(107deg, rgba(222, 35, 143, 1) 50%, rgba(221, 61, 61, 1) 52%);
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--bg-card);
+    box-shadow: rgba(79, 7, 48, 0.2) 5px 5px 15px 2px;
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    padding: .5rem;
+    border-radius: 10px;
+    color: var(--text-color);
+    background-color: var(--bg-btn);
+    box-shadow: rgba(79, 7, 48, 0.4) 2px 3px 5px 1px;
+    cursor: pointer;
+}
+
+
+/* .btn:focus {
+    box-shadow: rgba(79, 7, 48, 0) 2px 3px 5px 1px;
+} */
+
+.btn-update {
+    color: var(--bg-input);
+    background: rgb(53, 185, 11);
+    background: linear-gradient(107deg, rgba(53, 185, 11, 1) 100%, rgba(79, 7, 48, 1) 100%);
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+.mess {
+    color: var(--text-color);
+    font-size: 1rem;
+    padding: 100px 0;
+}
+
+.hide {
+    display: none;
+}
